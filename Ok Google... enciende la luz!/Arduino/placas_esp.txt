@@ -1,0 +1,1 @@
+http://arduino.esp8266.com/versions/2.4.1/package_esp8266com_index.json
