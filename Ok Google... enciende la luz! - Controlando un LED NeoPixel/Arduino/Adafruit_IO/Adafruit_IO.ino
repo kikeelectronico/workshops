@@ -20,7 +20,11 @@ Adafruit_MQTT_Client mqtt(&client, servidor_adafruit, puerto_adafruit, nombre_de
 Adafruit_MQTT_Subscribe led = Adafruit_MQTT_Subscribe(&mqtt, nombre_de_usuario "/feeds/LED");
 
 //Configurar el LED Neopixel
+
+/*************************** Selecciona el puerto adecuado ***********************/
 #define pin D2
+//#define pin D4
+
 Adafruit_NeoPixel pixel = Adafruit_NeoPixel(1, pin, NEO_GRB + NEO_KHZ800);
 
 void setup() {

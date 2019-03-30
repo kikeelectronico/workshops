@@ -1,7 +1,9 @@
 #include <Adafruit_NeoPixel.h>
 
 //Pin del LED
-#define pin            D2
+/*************************** Selecciona el puerto adecuado ***********************/
+#define pin D2
+//#define pin D4
 
 //Objeto pixel
 Adafruit_NeoPixel pixel = Adafruit_NeoPixel(1, pin, NEO_GRB + NEO_KHZ800);
